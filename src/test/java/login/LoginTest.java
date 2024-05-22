@@ -12,8 +12,8 @@ public class LoginTest extends BaseTests {
 
     @Test
     public void testSuccessfulLogin(){
-//        loginPage.setUsername("ysun@ecogaragedoors.com.au");
-//        loginPage.setPassword("Tims@123");
+//        loginPage.setUsername("abcd");
+//        loginPage.setPassword("abcd");
 //        HomePage homePage = loginPage.clickLogin();
         assertEquals(homePage.getWindowTitle(),"Eco Garage Doors","title is wrong");
     }
