@@ -23,7 +23,7 @@ public class BaseTests {
 
     private WebDriver driver;
     public LoginPage loginPage;
-    public HomePage homePage; // 将 homePage 声明为类的成员变量
+    public HomePage homePage; 
 
     public SearchQuotePage searchQuotePage;
 
@@ -31,12 +31,12 @@ public class BaseTests {
     public void setUp(){
         System.setProperty("webdriver.chrome.driver","resources/chromedriver.exe");
         driver = new ChromeDriver();
-        driver.get("http://egd2.sighte.com");
+        driver.get("http://xxxxm");
         driver.manage().window().maximize();
         loginPage = new LoginPage(driver);
-        loginPage.setUsername("ysun@ecogaragedoors.com.au");
-        loginPage.setPassword("Tims@123");
-        homePage = loginPage.clickLogin();  // 使用类的成员变量赋值
+        loginPage.setUsername("xxxxx");
+        loginPage.setPassword("xxxx");
+        homePage = loginPage.clickLogin();  
     }
 
     @AfterClass
@@ -64,3 +64,4 @@ public class BaseTests {
 //        test.setUp();
 //    }
 }
+
