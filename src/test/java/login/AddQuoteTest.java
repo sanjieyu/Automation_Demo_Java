@@ -14,7 +14,7 @@ public class AddQuoteTest extends BaseTests {
     @Test
     public void testQuoteUrl(){
         AddQuotePage addQuotePage = homePage.addQuotePage();
-        assertEquals(addQuotePage.checkURL(),"http://egd2.sighte.com/Quote/Create");
+        assertEquals(addQuotePage.checkURL(),"http://xxxx/Quote/Create");
     }
 
     @Test
@@ -60,3 +60,4 @@ public class AddQuoteTest extends BaseTests {
 
 
 }
+
